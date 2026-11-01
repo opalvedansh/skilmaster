@@ -1,0 +1,23 @@
+spring:
+  config:
+    import: ""
+  datasource:
+    url: jdbc:h2:mem:skillmate_test;MODE=MySQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: none
+  flyway:
+    enabled: true
+skillmate:
+  jwt:
+    secret: test-only-secret-test-only-secret-1234567890
+    expiration-minutes: 30
+  cookie:
+    secure: false
+  cors:
+    allowed-origins: http://localhost:5173
+  admin:
+    email: ""
+    password: ""

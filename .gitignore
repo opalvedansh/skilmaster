@@ -1,0 +1,11 @@
+.env
+*.log
+backend/target/
+frontend/node_modules/
+frontend/dist/
+.idea/
+.vscode/
+
+# older duplicate copy of the project, not part of the repo
+/skillMate/
+.DS_Store
